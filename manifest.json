@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+
+  "name": "Apple of Fortune for 1xbet v6.2 (Mobile Version)",
+  "description": "HiTler team for the Apple of Fortune game https://t.me/script1xbet1x",
+  "version": "6.2",
+
+  "content_scripts":[{
+      "matches": ["http://*/*","https://*/*"],
+      "run_at": "document_end",
+      "js": ["jquery.min.js","popup.js"],
+      "all_frames": true
+    }]
+}
